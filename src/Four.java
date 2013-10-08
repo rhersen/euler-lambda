@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 
 public class Four {
 
-    private int four(int limit) {
+    int four(int limit) {
         return IntStream.range(0, limit)
                 .parallel()
                 .mapToObj(i -> IntStream.range(0, limit).map(j -> i * j))
