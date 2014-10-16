@@ -23,7 +23,7 @@ public class Seven {
         return LongStream
                 .range(2, Long.MAX_VALUE)
                 .filter(this::isPrime)
-                .substream(n - 1)
+//                .substream(n - 1)
                 .findFirst()
                 .getAsLong();
     }

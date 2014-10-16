@@ -21,6 +21,7 @@ public class Six {
         assertThat(squareOfSum(10L) - sumOfSquares(10L), is(2640L));
 
         System.out.println(squareOfSum(100L) - sumOfSquares(100L));
+        System.out.println(squareOfSum(8000L) - sumOfSquares(8000L));
     }
 
     private long squareOfSum(long limit) {

@@ -15,8 +15,8 @@ public class OneTest {
 
     @Test
     public void test() throws Exception {
-        assertThat(target.functional(10), equalTo(23L));
-        assertThat(target.functional(1000), equalTo(233168L));
-        assertThat(target.functional(6000000000L), equalTo(8399999997000000000L));
+        assertThat(target.iterative(10), equalTo(23L));
+        assertThat(target.iterative(1000), equalTo(233168L));
+        assertThat(target.iterative(6000000000L), equalTo(8399999997000000000L));
     }
 }
